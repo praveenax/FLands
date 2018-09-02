@@ -1,3 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
 body{
         background-image: url('http://www.hdwallpaperspulse.com/wp-content/uploads/2013/05/fantasy-wallpapers-background-environment-places-fantastic-array-wallwuzz-hd-wallpaper-4454.jpg');
 }
@@ -25,6 +55,8 @@ body{
     border-radius: 6px;
     padding: 10px;
     font-size: 12px;
+    width: 100%;
+    display: inline-block;
 }
 
 .faction-inner2 {
@@ -35,4 +67,7 @@ body{
 }
 .faction-title{
     font-size: 18px;
+}
+.starbadge{
+    margin-right: 2px;
 }
