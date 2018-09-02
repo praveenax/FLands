@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Card Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css">
+    <link rel="stylesheet" href="cardgame.css">
+</head>
+
+<body>
+
+    <div style="padding: 20px;">
+
+        <div class="rows">
+            <div class="col-md-4">
+                <div id="app">
+                    {{ message }}
+
+                    <br>
+
+                    <ol>
+                        <!-- Create an instance of the todo-item component -->
+                        <todo-item></todo-item>
+                    </ol>
+                </div>
+            </div>
+            <div class="col-md-4">i</div>
+            <div class="col-md-4">i</div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <!--  <script src="/socket.io/socket.io.js"></script>-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.js"></script>
+    <script src="cardgame.js"></script>
+</body>
+
+</html>
